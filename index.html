@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <!-- nav menu -->
     <header>
         <nav class="navbar bg-dark border-bottom border-body d-md-none sticky-top" data-bs-theme="dark">
             <div class="container-fluid">
@@ -48,6 +49,8 @@
             </div>
           </nav>
     </header>
+    <!-- nav menu -->
+    <!-- sidebar -->
     <main class="d-flex flex-nowrap">
         <div class="d-md-flex d-none min-vh-100 flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -100,10 +103,11 @@
               </ul>
             </div>
           </div>
-
+          <!-- /sidebar -->
         </div>
         <div class="container">
            <div class="row">
+            <!-- item list -->
             <div class="col-12 py-2 mb-2 d-flex justify-content-between">
                     <h2 class="fw-semibold">10 prodotti trovati</h2>
                 <div class="btn-group" role="group" aria-label="Default button group">
@@ -155,22 +159,22 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
+                <!-- modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
+                      <div class="modal-content rounded-3 shadow">
+                        <div class="modal-body text-center p-4">
+                          <h5 class="mb-0">Elimina prodotto</h5>
+                          <p class="mb-0">l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
                         </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
+                        <div class="modal-footer flex-nowrap p-0">
+                          <button type="button" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0 border-end"><strong>Si,continua</strong></button>
+                          <button type="button" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0" data-bs-dismiss="modal">Annulla</button>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <!-- /modal -->
             </div>
           </div>
           <hr>
@@ -192,22 +196,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -229,22 +217,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -266,22 +238,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -303,22 +259,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -340,22 +280,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -377,22 +301,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -414,22 +322,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -451,22 +343,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -488,22 +364,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
@@ -525,22 +385,6 @@
             <div class="d-flex">
                 <button type="button" class="btn btn-outline-primary btn-sm me-1"><i class="fa-solid fa-pen"></i></button>
                 <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-trash"></i></button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header justify-content-center border-0">
-                          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Elimina prodotto</h1>
-                        </div>
-                        <div class="modal-body d-flex justify-content-center align-items-start p-0">
-                          <p>l'eliminazione sar&agrave; irreversibile, sei sicuro&quest;</p>
-                        </div>
-                        <div class="modal-footer">
-                         <div class="col text-center"><a class="text-decoration-none fw-semibold" href="#">Si, continua</a></div>
-                       <div class="col text-center"><a class="text-decoration-none" href="#">Annulla</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
             </div>
           </div>
           <hr>
